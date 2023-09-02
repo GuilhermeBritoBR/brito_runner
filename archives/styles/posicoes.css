@@ -12,7 +12,7 @@
 }
 p{  
     margin:0px;
-    font-size: 2.4vh;
+    font-size: 2.2vh;
 }
 .amenu{
     background-color: #000;
@@ -20,8 +20,17 @@ p{
     border-radius: 25px;
     border: #303030 1px solid;
     margin: 3px;
+    box-shadow: 0.1em 0.1em 0.9em #fff;
 }
 .amenu:hover{
     background-color: #2b2b2b;
+
    
+}
+.titulo_div, .topicos_informacionais_div, .topicos_marcas_registradas_div {
+    border-bottom:solid 1px #fff;
+    display: inline-block;
+}
+ .foto_principal_div{
+    margin-bottom:70px;
 }

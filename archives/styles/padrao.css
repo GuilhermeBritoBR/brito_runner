@@ -5,7 +5,13 @@ html{
     height: 100%;
     margin:0px;
     border: 0px solid #000;
+    font-family:"roboto" ;
 }
+@font-face{
+    font-family: roboto;
+    src: url(/archives/Roboto-Regular.ttf);
+}
+
 a,h2,p,ul{
     color:#fff;
     text-decoration: none;
@@ -16,13 +22,16 @@ a,h2,p,ul{
 body{
     margin:0px;
     border:0px solid #000;
+    padding-bottom:40px;
 }
 h1{
     font-size: 2.8vh;
 }
-img{
+.foto{
     width: 36vh;
     height:52vh ;
+    border-radius: 10px;
+    box-shadow: 0.1em 0.1em 0.9em #fff;
 }
 button{
     margin:20px;
@@ -33,6 +42,10 @@ button{
     color: #fff;
     box-shadow: 0.0em 0.0em 0.4em #fff;
     border-radius: 10px;
+}
+button:hover{
+    background-color: #222121;
+    cursor: pointer;
 }
 menu{
     display: none;
@@ -50,8 +63,17 @@ header{
     background-image:url(/archives/header.png);
     background-size:cover;
     width: 100%;
-    height:500px;
+    height:600px;
     border:0px solid #000;
     margin:0px;
     
+}
+#menu{
+    padding-right: 40px;
+}
+footer{
+    border-top:solid 1px #fff;
+    padding-top:20px;
+    width: 100%;
+    text-align: center;
 }
