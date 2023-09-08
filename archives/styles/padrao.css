@@ -9,7 +9,7 @@ html{
 }
 @font-face{
     font-family: roboto;
-    src: url(/archives/Roboto-Regular.ttf);
+    src: url(../Roboto-Regular.ttf);
 }
 
 a,h2,p,ul{
@@ -60,7 +60,7 @@ menu{
     cursor: pointer;
 }
 header{
-    background-image:url(/archives/header.png);
+    background-image:url(../header.png);
     background-size:cover;
     width: 100%;
     height:600px;
